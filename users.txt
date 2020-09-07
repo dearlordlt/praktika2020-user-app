@@ -1,0 +1,1 @@
+{"name":"Petras_stuff","friends":["Jonas_stuff"],"age":55}

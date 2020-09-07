@@ -7,5 +7,7 @@ const callbackFn = () => {
 
 const firstUser = new User('Petras');
 firstUser.addAge(55);
+const secondUser = new User('Jonas');
+firstUser.addFriend(secondUser);
 
 fs.writeFile('users.txt', JSON.stringify(firstUser), {}, callbackFn);
